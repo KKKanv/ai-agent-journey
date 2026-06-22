@@ -1,0 +1,23 @@
+{
+  "app_name": "MyAgent",
+  "version": "1.0.0",
+  "settings": {
+    "model": "claude-sonnet-4-6",
+    "temperature": 0.7,
+    "max_tokens": 4096
+  },
+  "tools": [
+    {
+      "name": "search",
+      "enabled": true
+    },
+    {
+      "name": "calculator",
+      "enabled": false
+    },
+    {
+      "name": "file_reader",
+      "enabled": true
+    }
+  ]
+}

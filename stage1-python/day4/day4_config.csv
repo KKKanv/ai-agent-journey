@@ -1,0 +1,12 @@
+path,value
+app_name,MyAgent
+version,1.0.0
+settings.model,claude-sonnet-4-6
+settings.temperature,0.7
+settings.max_tokens,4096
+tools.1.name,search
+tools.1.enabled,True
+tools.2.name,calculator
+tools.2.enabled,False
+tools.3.name,file_reader
+tools.3.enabled,True
